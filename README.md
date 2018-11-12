@@ -1,2 +1,9 @@
 # Warehouse-location
 The goal is to find the optimal warehouse location that minimizes transportation and warehousing costs adapting several methods : Linear programming, Branch&amp;Bound, Branch&amp;Cut, Algorithme glouton, Tabu search, Genetic algorithm...
+
+# Getting Started
+
+# Prerequisites
+
+# Running the tests
+
