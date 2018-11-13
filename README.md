@@ -19,4 +19,15 @@ Then, you have to answer the questions displayed by typing the desired number su
   * the maximum value that the demand can take
   * ...
   
-Then, you will get a new dataset stored in the file ###data.dat
+Then, you will get a new dataset stored in the file data.dat
+### Step 3 : 
+To launch the resolution of the mathematical model, you have to tape : 
+  make MILP
+  ./MILP
+  
+Then, you will obtain the optimal solution.
+### Step 4 : 
+To obtain the solution by applying Branch and bound method, you have to tape : 
+  make BranchAndBound
+  ./BranchAndBound
+
