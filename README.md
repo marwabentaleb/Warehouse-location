@@ -18,4 +18,5 @@ Then, you have to answer the questions displayed by typing the desired number su
   * choose the number of stores  
   * the maximum value that the demand can take
   * ...
+  
 Then, you will get a new dataset stored in the file ####data.dat
