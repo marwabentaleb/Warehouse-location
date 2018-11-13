@@ -28,6 +28,8 @@ To launch the resolution of the mathematical model, you have to tape :
 Then, you will obtain the optimal solution.
 ### Step 4 : 
 To obtain the solution by applying Branch and bound method, you have to tape : 
+
   make BranchAndBound
+  
   ./BranchAndBound
 
