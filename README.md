@@ -4,6 +4,6 @@ The goal is to find the optimal warehouse location that minimizes transportation
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 ## Prerequisites
-
+To run the codes, you must install the CPLEX solver.
 ## Running the tests
 
