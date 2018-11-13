@@ -11,8 +11,8 @@ Once you download the project and install the CPLEX solver, you must follow the 
 Open terminal and go to the project folder
 ### Step 2 
 If you want to test the methods using the generated data file named data.dat, you can skip this step. Otherwise, you can generate you data file by taping :
-  make DataGeneration
-  ./DataGeneration
+  1. make DataGeneration
+  2. ./DataGeneration
 Then, you have to answer the questions displayed by typing the desired number such as :
   * choose the number of cities 
   * choose the number of stores  
@@ -22,14 +22,12 @@ Then, you have to answer the questions displayed by typing the desired number su
 Then, you will get a new dataset stored in the file data.dat
 ### Step 3 : 
 To launch the resolution of the mathematical model, you have to tape : 
-  make MILP
-  ./MILP
+  *make MILP
+  *./MILP
   
 Then, you will obtain the optimal solution.
 ### Step 4 : 
 To obtain the solution by applying Branch and bound method, you have to tape : 
-
-  make BranchAndBound
-  
-  ./BranchAndBound
+  *make BranchAndBound
+  *./BranchAndBound
 
