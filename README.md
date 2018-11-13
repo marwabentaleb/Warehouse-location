@@ -6,4 +6,5 @@ These instructions will get you a copy of the project up and running on your loc
 ## Prerequisites
 To run the codes, you must install the CPLEX solver.
 ## Running the tests
-
+Once you download the project and install the CPLEX solver, you must follow the following instructions to start the tests :
+### bla
