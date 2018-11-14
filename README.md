@@ -21,13 +21,13 @@ Then, you have to answer the questions displayed by typing the desired number su
   * ...
   
 Then, you will get a new dataset stored in the file data.dat
-### Step 3 : 
+### Step 3 
 To launch the resolution of the mathematical model, you have to tape : 
   1. make MILP
   2. ./MILP
   
 Then, you will obtain the optimal solution.
-### Step 4 : 
+### Step 4 
 To obtain the solution by applying Branch and bound method, you have to tape : 
   1. make BranchAndBound
   2. ./BranchAndBound
