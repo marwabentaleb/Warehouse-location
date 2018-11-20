@@ -38,10 +38,10 @@ CCLNFLAGS = -lconcert -lilocplex -lcplex -lm -pthread
 
 
 # ------------------------------------------------------------
-EXEC=BrancheAndBound
-EXEC1=MILP
+EXEC = BrancheAndBound
+EXEC1 = MILP
 EXEC2 = DataGeneration
-
+EXEC3 = AlgoGlouton
 all:$(EXEC)
 
 $(EXEC): $(EXEC).o
@@ -69,6 +69,15 @@ $(EXEC2): $(EXEC2).o
 
 $(EXEC2).o: $(EXEC2).cpp
 	$(CCC) -c $(CCFLAGS) $(EXEC2).cpp -o $(EXEC2).o
+	
+all:$(EXEC3)
+
+$(EXEC3): $(EXEC3).o
+	$(CCC) $(CCFLAGS) $(CCLNDIRS) -o $(EXEC3) $(EXEC3).o $(CCLNFLAGS)
+
+$(EXEC3).o: $(EXEC3).cpp
+	$(CCC) -c $(CCFLAGS) $(EXEC2).cpp -o $(EXEC3).o
+
 
 
 
