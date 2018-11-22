@@ -33,7 +33,7 @@ To obtain the solution by applying Branch and bound method, you have to tape :
   2. ./BranchAndBound
 
 ### Step 5 
-To obtain the solution by using th algorithm glouton, you have to tape : 
+To obtain the solution by using the algorithm glouton, you have to tape : 
   1. make AlgoGlouton
   2. ./AlgoGlouton
 
